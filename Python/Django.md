@@ -2,12 +2,12 @@
 
 ### Django 命令和操作
 **启动项目**
-`django-admin.py startproject djproject`
-**建立一个app**
-`python manage.py startapp jobs`
-**创建超级管理员**
-`python manage.py createsuperuser`
-**创建数据库并且同步**
+`django-admin.py startproject djproject`  
+**建立一个app**  
+`python manage.py startapp jobs`  
+**创建超级管理员**  
+`python manage.py createsuperuser`  
+**创建数据库并且同步**  
 `python manage.py makemigrations
 python manage.py migrate`
 
