@@ -11,6 +11,16 @@
 `python manage.py makemigrations
 python manage.py migrate`
 
+### Admin
+在admin页面中注册  
+
+```python
+admin.site.register(webuser.models.User,UserAdmin)
+
+class UserAdmin(admin.ModelAdmin):
+    list_display = ('username','email','phone')
+```
+
 ### Model
 python manage.py inspectdb  
 这样就可以在命令行看到数据库的模型文件了  
